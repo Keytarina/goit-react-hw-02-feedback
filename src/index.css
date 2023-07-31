@@ -34,7 +34,13 @@ img {
   height: auto;
 }
 
-.App {
+.app {
+  display: block;
+  height: 100vh;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #ffff99 0%, #99ff66 100%);
+}
+.app_container {
   display: block;
   width: 320px;
   margin: 0 auto;

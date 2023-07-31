@@ -35,7 +35,8 @@ export class App extends Component {
     const options = Object.keys(this.state);
 
     return (
-      <div className="App">
+      <div className='app'>
+        <div className='app_container'>
         <Section title="Please leave feedback">
           <FeedbackOptions options={options} onLeaveFeedback={this.onLeaveFeedback}/>
         </Section>
@@ -51,6 +52,7 @@ export class App extends Component {
           <Notification message="There is no feedback"></Notification>
           }
           </Section>        
+      </div>
       </div>
     );
   };
